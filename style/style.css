@@ -5,9 +5,75 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
 
 :root{
     --p-color: rgba(255, 255, 255, 0.8);
     --primary-color: rgb(255, 197, 54);
+}
+
+
+/* 
+Header Section ------------------------------------
+*/
+.header-section{
+    width: 100%;
+    background-image: linear-gradient(90.00deg, rgb(5, 8, 24),rgba(5, 8, 24, 0) 100%) ,url("../assets/Rectangle\ 19.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* 
+Nav bar section ------------------------------------
+*/
+.navbar-section{
+    width: 100%;
+}
+
+.nav{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand h1{
+    color: white;
+    font-size: 2.5rem;
+}
+
+.brand h1 span{
+    background: linear-gradient(to right,rgb(255, 197, 54),
+    rgba(255, 198, 54, 0.259));
+    background-clip: text;
+    color: transparent;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu .list-item{
+    margin: 0 5px;
+}
+
+.menu-link{
+    color: var(--p-color);
+    padding: 10px 20px;
+}
+
+.outline-btn{
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    padding: 15px 30px;
+    font-weight: 500;
+    border-radius: 8px;
 }
