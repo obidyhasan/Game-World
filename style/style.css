@@ -90,6 +90,12 @@ Nav bar section ------------------------------------
     border-radius: 8px;
 } 
 
+.menu-icon{
+    color: white;
+    font-size: 30px;
+    display: none;
+}
+
 /* 
 Hero Section -------------------------------------
 */
@@ -355,4 +361,66 @@ Our Sponsors -----------------------------------
     padding: 15px;
     color: rgb(5, 8, 24);
     font-weight: 500;
+}
+
+
+
+
+
+
+
+/* 
+--------------------- Responsive ----------------------
+*/
+@media screen and (max-width: 993px) {
+    
+    .menu-icon{
+        display: block;
+    }
+
+    .menu,
+    .nav button{
+        display: none;
+    }
+
+    .games-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .gaming-studio-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .studio-item{
+        grid-column: auto;
+    }
+
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+    .games-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hero-content h1{
+        font-size: 2.8rem;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+    
+    p{
+        font-size: .9rem;
+    }
+
+    .outline-btn,
+    .button{
+        padding: 15px 20px;
+    }
+
 }
