@@ -307,3 +307,52 @@ Banner Section --------------------------------------
     margin: 20px 0;
     font-size: .9rem;
 }
+
+
+/* 
+Our Sponsors -----------------------------------
+*/
+.sponsors-section{
+    width: 100%;
+    background: rgb(5, 8, 24);
+}
+
+.sponsors-content{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 80px 30px 50px;
+}
+
+.sponsors-content  p{
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.sponsors-container{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 40px 0 80px;
+}
+
+.container-img{
+    width: 110px;
+}
+
+.container-img img{
+    width: 100%;
+}
+
+.footer{
+    border-radius: 4px;
+    background-color: var(--primary-color);
+}
+
+.footer p{
+    padding: 15px;
+    color: rgb(5, 8, 24);
+    font-weight: 500;
+}
