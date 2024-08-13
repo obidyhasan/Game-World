@@ -14,6 +14,11 @@
     --primary-color: rgb(255, 197, 54);
 }
 
+.title{
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
 
 p{
     color: var(--p-color);
@@ -131,4 +136,83 @@ Hero Section -------------------------------------
     background-color: var(--primary-color);
     font-weight: 600;
     font-size: 1.1rem;
+}
+
+
+/* 
+New released games Section -------------------------
+*/
+.games-section{
+    width: 100%;
+    background: rgb(5, 8, 24);
+}
+
+.games-content{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 80px 30px;
+}
+
+
+.games-content > p{
+    margin: 20px auto 50px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.games-container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.games-item{
+    width: 100%;
+    position: relative;
+}
+
+.games-item .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(90.00deg, rgba(5, 8, 24, 0.727) -21.083%,rgba(5, 8, 24, 0) 100%);
+}
+
+.games-item img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.item-bottom{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+}
+
+.item-bottom button{
+    border: none;
+    background-color: var(--primary-color);
+    padding: 6px 10px;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+.item-bottom h3{
+    color: white;
+    font-weight: 600;
+    max-width: 250px;
+    margin: 15px 0 10px;
+}
+
+.item-bottom p{
+    font-size: .9rem;
+}
+
+.item-bottom p i{
+    color: var(--primary-color);
 }
