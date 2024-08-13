@@ -216,3 +216,61 @@ New released games Section -------------------------
 .item-bottom p i{
     color: var(--primary-color);
 }
+
+
+/* 
+Gaming Studio Section ----------------------
+*/
+.gaming-studio-section{
+    background: linear-gradient(to bottom,rgb(18, 20, 36),rgb(5, 8, 24) 100%);
+}
+
+.gaming-studio-content{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 80px 30px;
+}
+
+.gaming-studio-content h2{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.gaming-studio-content > p{
+    max-width: 800px;
+    text-align: center;
+    margin: 20px auto 50px;
+}
+
+.gaming-studio-container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.studio-item{
+    background: linear-gradient(to bottom,rgb(18, 20, 36),rgb(5, 8, 24) 100%);
+    padding: 30px;
+    grid-column: span 2;
+    box-shadow: rgba(5, 8, 24) 0px 7px 29px 0px;
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+.studio-item img{
+    width: 40px;
+}
+.studio-item-3{
+    grid-column: 2 / 4;
+}
+
+.item-content h5{
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.item-content p{
+    font-size: .9rem;
+}
